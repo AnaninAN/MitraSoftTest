@@ -1,13 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
 @import 'reset';
 @import 'variables/global';
-@import 'themes/normal';
-@import 'themes/dark';
 
 body {
   font: var(--font-m);
-  background: var(--bg-color);
-  color: var(--primary-color);
 }
 
 .app {
@@ -16,4 +12,5 @@ body {
 
 .content-page {
   display: flex;
+  padding: 20px 0 20px;
 }
